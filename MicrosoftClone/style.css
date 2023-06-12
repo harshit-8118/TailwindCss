@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .line{
+        @apply h-[.105rem] bg-black w-6
+    }
+    .nav-items-links{
+        @apply p-2 pl-4 text-left text-black pt-4
+    }
+    .nav-item-logo ul li{
+        @apply cursor-pointer hover:underline hover:underline-offset-1
+    }
+}
