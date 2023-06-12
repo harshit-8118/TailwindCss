@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    
+}
+
+@layer components {
+    .input-box{
+        @apply text-lg bg-slate-50 h-12 border border-gray-200 border rounded-lg w-[22rem] pl-4 placeholder:text-stone-400 placeholder:focus:text-stone-300 focus-visible:border-none
+    }
+    .lang-link{
+        @apply text-slate-400 text-xs hover:underline hover:cursor-pointer
+    }
+    .shortcut-links{
+        @apply text-slate-500 text-[12px] hover:underline hover:cursor-pointer
+    }
+}
+
+@layer utilities {
+    
+}
